@@ -12,8 +12,26 @@ The original version is kept in the [upstream branch](https://github.com/turfaa/
 
 Here is the list of changes made in this repository:
 
-1. Docker image build.
+1. Docker image build. The image is published as `ghcr.io/turfaa/alps`.
 1. Versioning. Until the upstream publishes versioned releases, we will create v0.0.z version tags on every change.
+
+### Running the Docker Image
+
+To run the published docker image:
+
+    docker run -it -p 1323:1323 ghcr.io/turfaa/alps:latest migadu.com
+
+The server will then be run with:
+- Migadu's email servers.
+- The `alps` theme.
+
+The server will be accessible through http://localhost:1323/.
+
+If you want to run with the `sourcehut` theme at port 8088:
+
+    docker run -it -p 8088:1323 ghcr.io/turfaa/alps:latest -theme=sourcehut migadu.com
+
+Advanced users should know how to do what they want ;)
 
 ## Usage
 
