@@ -5,6 +5,16 @@
 
 A simple and extensible webmail.
 
+## Notes from Turfa
+
+This repository is a fork of the [Migadu's alps project in sourcehut](https://git.sr.ht/~migadu/alps).
+The original version is kept in the [upstream branch](https://github.com/turfaa/alps/tree/upstream).
+
+Here is the list of changes made in this repository:
+
+1. Docker image build.
+1. Versioning. Until the upstream publishes versioned releases, we will create v0.0.z version tags on every change.
+
 ## Usage
 
 Assuming SRV DNS records are properly set up (see [RFC 6186]):
