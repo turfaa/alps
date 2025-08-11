@@ -12,8 +12,22 @@ The original version is kept in the [upstream branch](https://github.com/turfaa/
 
 Here is the list of changes made in this repository:
 
-1. Docker image build. The image is published as `ghcr.io/turfaa/alps`.
-1. Versioning. Until the upstream publishes versioned releases, we will create v0.0.z version tags on every change.
+1. **Docker image build**.
+
+   The image is published as `ghcr.io/turfaa/alps`.
+
+1. **Versioning**.
+
+   Until the upstream publishes versioned releases,
+   we will create v0.0.z version tags on every change.
+
+1. **Populating names when replying to emails**.
+
+   In upstream, when replying to emails, the `To` field
+   will only be filled by the sender's email (e.g.: `github@turfa.id`).
+
+   Now, the `To` field will be filled by the sender's name and email (e.g.: `"Turfa" <github@turfa.id>`).
+
 
 ### Running the Docker Image
 
