@@ -28,6 +28,7 @@ Here is the list of changes made in this repository:
 
    Now, the `To` field will be filled by the sender's name and email (e.g.: `"Turfa" <github@turfa.id>`).
 
+   Update: this change has been [pushed to upstream](https://git.sr.ht/~migadu/alps/commit/2494da2bd98802a1e71dfe1712e59c577ef07d1f).
 
 ### Running the Docker Image
 
